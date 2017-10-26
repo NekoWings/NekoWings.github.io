@@ -124,7 +124,7 @@
   var CONFIG = {
     root: '/',
     scheme: 'Gemini',
-    sidebar: {"position":"left","display":"post","offset":12,"offset_float":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    sidebar: {"position":"left","display":"post","offset":12,"offset_float":12,"b2t":false,"scrollpercent":true,"onmobile":false},
     fancybox: true,
     tabs: true,
     motion: true,
@@ -471,19 +471,15 @@
 
     <footer id="footer" class="footer">
       <div class="footer-inner">
-        <div class="copyright" >
+        <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<div class="copyright" >
   
   &copy; 
   <span itemprop="copyrightYear">2017</span>
   <span class="with-love">
-    <i class="fa fa-heart"></i>
+    <i class="fa fa-paw"></i>
   </span>
   <span class="author" itemprop="copyrightHolder">NekoWings</span>
-</div>
-
-<div class="Zhanzhang">
-<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1265940641'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s19.cnzz.com/z_stat.php%3Fid%3D1265940641%26online%3D1%26show%3Dline' type='text/javascript'%3E%3C/script%3E"));</script>
-
 </div>
 
 <div class="powered-by">
@@ -497,6 +493,25 @@
   </a>
 </div>
 
+<br/>
+
+<div class="busuanzi-count">
+  <script src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js" async=""></script>
+    <span class="site-uv">
+      <i class="fa fa-user"></i>
+      <span class="busuanzi-value" id="busuanzi_value_site_uv">197</span>  
+    </span>
+    <span class="site-pv">
+      <i class="fa fa-eye"></i>
+      <span class="busuanzi-value" id="busuanzi_value_site_pv">1595</span>     
+    </span>
+</div>
+
+<!--<div class="Zhanzhang">
+<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1265940641'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s19.cnzz.com/z_stat.php%3Fid%3D1265940641%26online%3D1%26show%3Dline' type='text/javascript'%3E%3C/script%3E"));</script>
+
+</div>--!>
+
 
         
 
@@ -506,7 +521,9 @@
 
     
       <div class="back-to-top">
-        <i class="fa fa-arrow-up"></i>
+        <i class="fa fa-rocket"></i>
+        
+          <span id="scrollpercent"><span>0</span>%</span>
         
       </div>
     
