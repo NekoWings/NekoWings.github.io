@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://nekowings.cn/"/>
-  <updated>2017-10-26T03:54:12.645Z</updated>
+  <updated>2017-10-26T12:11:02.205Z</updated>
   <id>http://nekowings.cn/</id>
   
   <author>
@@ -18,10 +18,10 @@
   
   <entry>
     <title>Hello</title>
-    <link href="http://nekowings.cn/2017/10/26/%E4%BD%A0%E5%A5%BD/"/>
-    <id>http://nekowings.cn/2017/10/26/你好/</id>
-    <published>2017-10-25T16:00:00.000Z</published>
-    <updated>2017-10-26T03:54:12.645Z</updated>
+    <link href="http://nekowings.cn/2083/09/25/%E4%BD%A0%E5%A5%BD/"/>
+    <id>http://nekowings.cn/2083/09/25/你好/</id>
+    <published>2083-09-24T16:00:00.000Z</published>
+    <updated>2017-10-26T12:11:02.205Z</updated>
     
     <content type="html"><![CDATA[<p>欢迎来到Nekowings的奈落之地</p><p>这是我用Hexo搭载的个人博客</p><p>内容正在建设中，尽情期待</p>]]></content>
     
@@ -37,19 +37,44 @@
     
     </summary>
     
-      <category term="says" scheme="http://nekowings.cn/categories/says/"/>
+      <category term="Blog-Building" scheme="http://nekowings.cn/categories/Blog-Building/"/>
     
     
-      <category term="Blog-Building" scheme="http://nekowings.cn/tags/Blog-Building/"/>
+      <category term="says" scheme="http://nekowings.cn/tags/says/"/>
     
   </entry>
   
   <entry>
-    <title>Hello Hexo</title>
+    <title>第一篇博文</title>
+    <link href="http://nekowings.cn/2017/10/26/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E6%96%87/"/>
+    <id>http://nekowings.cn/2017/10/26/第一篇博文/</id>
+    <published>2017-10-26T11:22:17.000Z</published>
+    <updated>2017-10-26T12:11:07.746Z</updated>
+    
+    <content type="html"><![CDATA[<h1> Hexo搭载的个人博客 </h1>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1&gt; Hexo搭载的个人博客 &lt;/h1&gt;
+      
+    
+    </summary>
+    
+      <category term="Blog-Building" scheme="http://nekowings.cn/categories/Blog-Building/"/>
+    
+    
+      <category term="says" scheme="http://nekowings.cn/tags/says/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello</title>
     <link href="http://nekowings.cn/2017/10/24/hello-world/"/>
     <id>http://nekowings.cn/2017/10/24/hello-world/</id>
     <published>2017-10-24T00:30:29.407Z</published>
-    <updated>2017-10-25T17:09:46.000Z</updated>
+    <updated>2017-10-26T12:11:10.627Z</updated>
     
     <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>]]></content>
     
@@ -62,6 +87,10 @@
     
     </summary>
     
+      <category term="Blog-Building" scheme="http://nekowings.cn/categories/Blog-Building/"/>
+    
+    
+      <category term="Hexo" scheme="http://nekowings.cn/tags/Hexo/"/>
     
   </entry>
   
