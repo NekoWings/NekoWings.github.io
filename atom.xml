@@ -42,6 +42,31 @@
   </entry>
   
   <entry>
+    <title>Python start</title>
+    <link href="http://nekowings.cn/2017/11/16/Python-start/"/>
+    <id>http://nekowings.cn/2017/11/16/Python-start/</id>
+    <published>2017-11-16T05:55:47.000Z</published>
+    <updated>2017-11-16T06:22:53.879Z</updated>
+    
+    <content type="html"><![CDATA[<div align="center"><br><em>“Python是世界上最好的语言！”</em><br><br><br><img alt="就算你看我我也不知道" src="/img/dontlookatme.jpg" width="150" height="150"><br></div><p>我不知道是不是最好的，但这并不妨碍我去学习它，或是其他语言。</p><p>有了C++的编程基础，再上手一门新语言还是比较快的。同时非常开心的领悟到命令行的强大与便捷，我所接触的是Windows的Powershell和bash。</p><p>附一张小小的程序截图<br><img alt="Py3 argv" src="/img/2017-11-16.png" width="100%"></p><p>因为py2,py3的print语句有区别，自己写的语句一直提示<br><code>TypeError: not enough arguments for format string</code><br>之前是<br><code>print (“Hi %s, I’m the %s script.” % user_name, script)</code><br>后来改成(根据Python3的规范)<br><code>print (“Hi %s, I’m the %s script.” % (user_name, script))</code><br>就OK了。后面的变量名也是需要用括号括起来的，当然只有一个的时候就不需要了</p><p>我所学习的书本使用的是Python2.x（并且书上不建议使用Python3）。 Whatever，电脑上装了Python3，那就在认识Python2的同时，在实际操作中练习Python3，这样会收获很多吧。也便于面对之后不同开发者分别使用2，3开发的程序。</p><p>这篇就先到这里吧，嗯。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;div align=&quot;center&quot;&gt;&lt;br&gt;&lt;em&gt;“Python是世界上最好的语言！”&lt;/em&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;img alt=&quot;就算你看我我也不知道&quot; src=&quot;/img/dontlookatme.jpg&quot; width=&quot;150&quot; height=&quot;150&quot;&gt;&lt;b
+      
+    
+    </summary>
+    
+      <category term="Python入门" scheme="http://nekowings.cn/categories/Python%E5%85%A5%E9%97%A8/"/>
+    
+    
+      <category term="Python" scheme="http://nekowings.cn/tags/Python/"/>
+    
+  </entry>
+  
+  <entry>
     <title>First post</title>
     <link href="http://nekowings.cn/2017/11/14/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E6%96%87/"/>
     <id>http://nekowings.cn/2017/11/14/第一篇博文/</id>
