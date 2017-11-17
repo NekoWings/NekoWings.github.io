@@ -42,6 +42,32 @@
   </entry>
   
   <entry>
+    <title>QT Start</title>
+    <link href="http://nekowings.cn/2017/11/17/QT-Start/"/>
+    <id>http://nekowings.cn/2017/11/17/QT-Start/</id>
+    <published>2017-11-17T03:30:57.000Z</published>
+    <updated>2017-11-17T05:34:34.274Z</updated>
+    
+    <content type="html"><![CDATA[<p>我还是回来学QT了。<br>半年前本来是要试着用QT做大一下程序设计基础的课设。最后拖到ddl因为上手太晚而放弃了它。但一直有一个制作GUI的想法.暂时没有时间和环境上手C#，或者Java。现在刚好趁着有项目可以做，学习一下QT和OpenCV。</p><p>QT的自带IDE还是不错的，只是某些地方一直有一些小bug，不知道是个人设置问题还是。每个项目都必须手动修改debug, release和profile目录才能正常编译运行。<br>运行了几个自带的example，还是灰常有意思的。</p><p>Calendar<br><img alt="calendar example" src="/img/2017-11-17 (3).png" width="100%"></p><p><em>作为一只猫，一定就要有搞事情的本性！</em></p><p>于是我想用我喜爱的Visual Studio去运行QT库。<br>当然，在VS2017(2015同) 工具-&gt;拓展和更新 中是有官方提供的插件的，顺利下载安装后会在上面一行菜单栏中出现<code>Qt VS Tools</code>一项。<br>然后选择<code>Qt Options</code>，“顺利”设置下去就行……</p><p><img alt="qt vs tools" src="/img/Qt VS Tools.png" width="50%"><img alt="qt vs tools" src="/img/Qt VS Tools (1).png" width="50%"></p><p>注意：<big>MinGW的版本会添加不进去！</big><br>去QT官网重新下载适配VS的相应版本即可（vs2017用vs2015的版本就行，注意图中那个目录名称，即我所下载的QT版本）<br>之前一直配置失败，折腾了许久才发现这个原因真是傻到不行==。<br>关于MinGW和MSVC的区别，度娘有很多答案。</p><p>接下来是系统环境变量的添加，你的vs很可能找不到include目录在哪里而触发各种编译失败。<br>    这台电脑-&gt;属性-&gt;高级系统设置-&gt;环境变量<br><em>先进行如下操作：</em><br><img src="/img/Qt EV set.png" wid="100%"><br>然后再在Path中添加<code>%QTDIR%\bin</code>即可</p><p>回到VS码一个Hello，成功运行Kira⭐彡<br><img src="/img/2017-11-17 (1).png" width="100%"><br><img src="/img/2017-11-17 (2).png" width="100%"></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;我还是回来学QT了。&lt;br&gt;半年前本来是要试着用QT做大一下程序设计基础的课设。最后拖到ddl因为上手太晚而放弃了它。但一直有一个制作GUI的想法.暂时没有时间和环境上手C#，或者Java。现在刚好趁着有项目可以做，学习一下QT和OpenCV。&lt;/p&gt;
+&lt;p&gt;QT的自带ID
+      
+    
+    </summary>
+    
+      <category term="Python入门" scheme="http://nekowings.cn/categories/Python%E5%85%A5%E9%97%A8/"/>
+    
+    
+      <category term="QT" scheme="http://nekowings.cn/tags/QT/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Python start</title>
     <link href="http://nekowings.cn/2017/11/16/Python-start/"/>
     <id>http://nekowings.cn/2017/11/16/Python-start/</id>
